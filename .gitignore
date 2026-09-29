@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Syncthing (in case you ever add it)
+.stversions/
+.stfolder/
+
+# Agent scratch that shouldn't be versioned
+50-59_AGENTS/**/working/
+50-59_AGENTS/**/inbox/
+
+# Node / temp / logs
+node_modules/
+*.log
+*.tmp
